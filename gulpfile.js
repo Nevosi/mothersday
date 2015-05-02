@@ -1,6 +1,10 @@
 var gulp = require('gulp')
-	gutil = require('gulp-util');
+	gutil = require('gulp-util'),
+	coffee = require('gulp-coffee');
 
-gulp.task('log', function() {
- gutil.log('workflow test') // place code for your default task here
+gulp.task('coffee', function() {
+	 gulp.src(Coffee_scripts/ *.coffee)
+		.pipe(coffee({bare: true})
+			.on(.'error', gutil.log))
+		 .pipe(gulp.dest('Javascripts'))
 });
