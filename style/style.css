@@ -15,14 +15,20 @@ body {
 
 /* line 7, C:/Users/bubba_000/Documents/GitHub/mothersday/style/_main.scss */
 #page {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   background-color: #BF0000;
   height: 100%;
   width: 100%; }
   /* line 12, C:/Users/bubba_000/Documents/GitHub/mothersday/style/_main.scss */
   #page .container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 800px;
     background-image: url('images/img-noise-800x1000.png');
     margin-top: 1em;
@@ -42,13 +48,17 @@ body {
     #page .container h2 {
       font-family: cedarville-cursive;
       font-size: 40px;
-      align-self: flex-end; }
+      -webkit-align-self: flex-end;
+          -ms-flex-item-align: end;
+              align-self: flex-end; }
     /* line 35, C:/Users/bubba_000/Documents/GitHub/mothersday/style/_main.scss */
     #page .container h3 {
       font-family: cedarville-cursive;
       font-size: 30px;
       margin-top: 0;
-      align-self: flex-end; }
+      -webkit-align-self: flex-end;
+          -ms-flex-item-align: end;
+              align-self: flex-end; }
 
 /* line 44, C:/Users/bubba_000/Documents/GitHub/mothersday/style/_main.scss */
 #loading {
@@ -65,5 +75,3 @@ body {
   #loading h1 {
     font-family: open-sans;
     color: black; }
-
-/*# sourceMappingURL=style.css.map */
