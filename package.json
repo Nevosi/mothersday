@@ -1,0 +1,10 @@
+{
+  "name": "mothersday",
+  "version": "0.1.0",
+  "description": "Site for Mothers day",
+  "repository": {
+	 "type": "git",
+	 "url": "https://github.com/Nevosi/mothersday.git"
+  },
+  "author": "Justin Blatecky",
+}
