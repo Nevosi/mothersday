@@ -38,7 +38,7 @@ module.exports = function(grunt) {
 			multiple_files:{
 				dexpand: true,
 				flattten: true,
-				src: 'style/*.css',
+				src: '*.css',
 				dest:''
 			}
 		},
