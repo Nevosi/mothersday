@@ -1,0 +1,51 @@
+/* This is the master SCSS file
+ * from which all other SCSS files will be called.
+ * Examples taken from http://sass-lang.com/guide
+ */
+/*
+ * Variables and optional mixins, written in SCSS.
+ * Examples taken from http://sass-lang.com/guide
+ *
+ */
+/*
+ * Main styles, written in SCSS.
+ * Examples taken from http://sass-lang.com/guide
+ *
+ */
+/* line 7, C:/Users/bubba_000/Documents/GitHub/mothersday/style/_main.scss */
+body {
+  font: 100% shadows-into-light-two;
+  background: #FFF top left repeat-x; }
+
+/* line 12, C:/Users/bubba_000/Documents/GitHub/mothersday/style/_main.scss */
+#page {
+  display: none; }
+  /* line 14, C:/Users/bubba_000/Documents/GitHub/mothersday/style/_main.scss */
+  #page .container {
+    display: flex;
+    flex-direction: column; }
+    /* line 17, C:/Users/bubba_000/Documents/GitHub/mothersday/style/_main.scss */
+    #page .container h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+      padding-bottom: 0; }
+    /* line 22, C:/Users/bubba_000/Documents/GitHub/mothersday/style/_main.scss */
+    #page .container p {
+      font-size: 1.5em;
+      margin-top: 0;
+      padding-top: 0; }
+
+/* line 30, C:/Users/bubba_000/Documents/GitHub/mothersday/style/_main.scss */
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 0.5);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/*# sourceMappingURL=style.css.map */
