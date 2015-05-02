@@ -1,10 +1,15 @@
 {
   "name": "mothersday",
   "version": "0.1.0",
-  "description": "Site for Mothers day",
+  "description": "Mothers day Site",
   "repository": {
-	 "type": "git",
-	 "url": "https://github.com/Nevosi/mothersday.git"
+    "type": "git",
+    "url": "https://github.com/Nevosi/mothersday.git"
   },
   "author": "Justin Blatecky",
+  "homepage": "https://github.com/Nevosi/mothersday",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.4"
+  }
 }
