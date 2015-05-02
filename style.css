@@ -5,7 +5,6 @@
 /*
  * Variables and optional mixins, written in SCSS.
  * Examples taken from http://sass-lang.com/guide
- *
  */
 body {
   font-family: shadows-into-light-two;
@@ -14,14 +13,20 @@ body {
 }
 
 #page {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   background-color: #BF0000;
   height: 100%;
   width: 100%;
 }
 #page .container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 800px;
   background-image: url("images/img-noise-800x1000.png");
   margin-top: 1em;
@@ -41,13 +46,17 @@ body {
 #page .container h2 {
   font-family: cedarville-cursive;
   font-size: 40px;
-  align-self: flex-end;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
 }
 #page .container h3 {
   font-family: cedarville-cursive;
   font-size: 30px;
   margin-top: 0;
-  align-self: flex-end;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
 }
 
 #loading {
