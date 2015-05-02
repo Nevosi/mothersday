@@ -1,19 +1,19 @@
-/*
- * Main styles, written in SCSS.
- * Examples taken from http://sass-lang.com/guide
- *
- */
-
 body {
-  font: 100% $font-stack;
+  font-family: $font-stack ;
   background: $primary-color top left repeat-x;
 }
 
 #page{
 	display: none;
+	background-color: $red;
 	.container {
 		display: flex;
 		flex-direction: column;
+		width: 800px;
+		background-image: url('images/img-noise-800x1000.png');
+		margin-top: 1em;
+		margin-bottom: 1em;
+		box-shadow: .7em .7em 1em $shadow;
 		h1{
 		font-size: 2em;
 		margin-bottom: 0.2em;
@@ -24,6 +24,17 @@ body {
 		 margin-top: 0;
 		 padding-top: 0;
 		}
+		h2{
+			font-family: $signiture;
+			font-size: 40px;
+			align-self: flex-end;
+			}
+		h3{
+			font-family: $signiture;
+			font-size: 30px;
+			margin-top: 0;
+			align-self: flex-end;
+		}
 	}
 }
 
@@ -33,9 +44,8 @@ body {
 	 top: 0;
 	 left: 0;
 	 z-index: 100;
-	 width: 100vw;
-	 height: 100vh;
+	 width: 100%;
+	 height: 100%;
 	 background-color: $grey;
 	 background-repeat: no-repeat;
-	 background-position: center;
 }
