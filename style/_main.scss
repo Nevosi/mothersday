@@ -51,8 +51,15 @@ body {
 	 height: 100%;
 	 background-color: $red;
 	 background-repeat: no-repeat;
+	text-align: center;
 	h1{
 		font-family: open-sans;
 		color: black;
 	}
+}
+
+iframe {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-self: center;
 }
